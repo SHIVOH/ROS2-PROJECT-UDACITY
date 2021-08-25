@@ -84,9 +84,29 @@ Open a new terminal, then <br/>
 Actions are yet another method of communication in ROS 2. In here, an action client request the action server for a goal completion. The Action server 
 do the task and return the result to the client. Moreover, it also provide feedback regarding how the task is progressing.
 
+#### To run the Action server node 
+Open a new terminal, then <br/>
+`cd ~/dev_ws`   <br/>
+`source /opt/ros/galactic/setup.bash` <br/>
+`. install/setup.bash ` <br/>
+`ros2 run action_tutorials_cpp fibonacci_action_server` <br/>
+
+
+#### To run the client node
+Open a new terminal, then <br/>
+`cd ~/dev_ws`   <br/>
+`source /opt/ros/galactic/setup.bash` <br/>
+`. install/setup.bash ` <br/>
+`ros2 run action_tutorials_cpp fibonacci_action_client` <br/>
 
 
 
+
+
+
+In this specific example, you are creating an action in which the client sends the goal to the server to print out the specific number of fibonacci numbers as the output.Each calculation is send as a feedback to the client too.
+
+![Example of execution](https://github.com/SHIVOH/ROS2-PROJECT-UDACITY/blob/main/fibonacci.png)
 
 
 
