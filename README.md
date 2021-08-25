@@ -66,7 +66,7 @@ Open a new terminal, then <br/>
 `. install/setup.bash ` <br/>
  `ros2 run udacity_final_project uclient X Y` <br/>
  In here, the X and Y represent any number that you wish to multiply. <br/>
- eg `ros2 run udacity_final_project uclient 43 89` <br/>
+ eg `ros2 run udacity_final_project uclient 5 6` <br/>
  
  ![Example of execution](https://github.com/SHIVOH/ROS2-PROJECT-UDACITY/blob/main/ROS%20Message.png)
 
