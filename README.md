@@ -26,13 +26,51 @@ In here, i have implemented the main concepts of the ROS such as ROS publishers,
     `colcon build`
 7. Source the overlay by ` . install/setup.bash `
 ## Running the ROS nodes
-### Publisher node
-After calling the 
 
-### Subscriber node
+### Publisher and Subscriber nodes for ROS message transfer
+Publisher node publishes the ROS messages to the ROS topic and then the Subscriber node collects the ROS messages from that topic.
+#### Publisher node
+Publisher node will publish a message to the ROS topic named "topic".  <br/>
 
-### Server and clients
+To run the Publisher ros node <br/>
+`cd ~/dev_ws`   <br/>
+`source /opt/ros/galactic/setup.bash`
+`. install/setup.bash ` <br/>
+`ros2 run udacity_final_project utalker ` <br/>
 
-### Actions in ROS
+#### Subscriber node
+Subscriber node will subscribe to the ROS topic named "topic" and get the messages published in the same. <br/>
+
+To run the subscriber ros node <br/>
+Open a new terminal, then <br/>
+`cd ~/dev_ws`   <br/>
+`source /opt/ros/galactic/setup.bash`
+`. install/setup.bash ` <br/>
+`ros2 run udacity_final_project ulistener ` <br/>
+
+### Server and clients nodes for a ROS service
+Services are another method of data transmission in the ROS 2. In here, the client node request a service to the server client and the server process the request and sent the data to the client node.
+
+#### To run the server node 
+Open a new terminal, then <br/>
+`cd ~/dev_ws`   <br/>
+`source /opt/ros/galactic/setup.bash`
+`. install/setup.bash ` <br/>
+ `ros2 run udacity_final_project userver`
+#### To run the client node
+Open a new terminal, then <br/>
+`cd ~/dev_ws`   <br/>
+`source /opt/ros/galactic/setup.bash` <br/>
+`. install/setup.bash ` <br/>
+ `ros2 run udacity_final_project uclient X Y` <br/>
+ In here, the X and Y represent any number that you wish to multiply. <br/>
+ eg `ros2 run udacity_final_project uclient 43 89` <br/>
+
+### Actions in ROS 2
+Actions are yet another method of communication in ROS 2. In here, an action client request the action server for a goal completion. The Action server 
+do the task and return the result to the client. Moreover, it also provide feedback regarding how the task is progressing.
+
+
+
 
 
