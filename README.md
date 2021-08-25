@@ -12,7 +12,7 @@ In here, i have implemented the main concepts of the ROS such as ROS publishers,
 3. create the workspace 
    `mkdir -p ~/dev_ws/src`
    `cd ~/dev_ws/src`
-4. clone my packages 
+4. clone my packages &nbsp
    publishers,subscribers, server, and client package -  ` git clone https://github.com/SHIVOH/ROS2-PROJECT-UDACITY.git`
    ROS action server and client package  - 
 5. Reach the root of your workspace
