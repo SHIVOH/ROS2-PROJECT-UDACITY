@@ -48,7 +48,7 @@ Open a new terminal, then <br/>
 `. install/setup.bash ` <br/>
 `ros2 run udacity_final_project ulistener ` <br/>
 
-
+ ![Example of execution](https://github.com/SHIVOH/ROS2-PROJECT-UDACITY/blob/main/Topic.png)
 
 ### Server and clients nodes for a ROS 2 service
 Services are another method of data transmission in the ROS 2. In here, the client node request a service to the server client and the server process the request and sent the data to the client node.
