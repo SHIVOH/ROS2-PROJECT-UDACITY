@@ -8,15 +8,16 @@ In here, i have implemented the main concepts of the ROS such as ROS publishers,
 ## Setup
 
 1. Install ROS 2 Galactic on your system via the [official documentation](https://docs.ros.org/en/galactic/Installation.html)
-2. source the ROS 2 environment by entering this command   source /opt/ros/galactic/setup.bash
+2. source the ROS 2 environment by entering this command  `source /opt/ros/galactic/setup.bash`
 3. create the workspace 
-   mkdir -p ~/dev_ws/src
-   cd ~/dev_ws/src
+   `mkdir -p ~/dev_ws/src`
+   `cd ~/dev_ws/src`
 4. clone my packages 
-    git clone https://github.com/ros/ros_tutorials.git -b galactic-devel
-5. cd dev_ws
-6. build the packages 
-    colcon build
+   ` git clone https://github.com/ros/ros_tutorials.git -b galactic-devel`
+5. Reach the root of your workspace
+    `cd dev_ws`
+7. build the packages 
+    `colcon build`
 7. run the nodes
 ### Publisher node
 
