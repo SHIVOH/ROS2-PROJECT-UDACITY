@@ -163,7 +163,7 @@ Set the goal_msg.order to the required number of fibonacci terms required.
 | A README with instructions is included with the project     | Completed      | 
 | The README indicates which project is chosen.   | Completed       | 
 | The README includes information about each rubric point addressed.   | Completed       | 
-| The submission must compile and run.   | Text        | 
+| The submission must compile and run.   | Tested        | 
 | The project demonstrates an understanding of C++ functions and control structures.   | Yes. eg: multiply_two_ints_server.cpp  line 6 to 13     | 
 | The project accepts user input and processes the input.   | yes, eg: ros2 run udacity_final_project uclient 5 6  (takes input 5 and 6)      | 
 | Classes use appropriate access specifiers for class members.   | yes, eg: num_publisher_member_function.cpp ,line 11 and 20       | 
