@@ -5,7 +5,7 @@ This is my project for the final assessment of the C++ Udacity nano Degree.
 In here, i have implemented the main concepts of the ROS such as ROS publishers, subscribers, messages , topics, services, clients and Actions. In reference to the [ROS-2 Official Tutorial](https://docs.ros.org/en/galactic/Tutorials.html)
 
 
-##Setup
+## Setup
 
 1. Install ROS 2 Galactic on your system via the [official documentation](https://docs.ros.org/en/galactic/Installation.html)
 2. source the ROS 2 environment by entering this command   source /opt/ros/galactic/setup.bash
@@ -18,12 +18,12 @@ In here, i have implemented the main concepts of the ROS such as ROS publishers,
 6. build the packages 
     colcon build
 7. run the nodes
-###Publisher node
+### Publisher node
 
-###Subscriber node
+### Subscriber node
 
-###Server and clients
+### Server and clients
 
-###actions in ROS
+### Actions in ROS
 
 
