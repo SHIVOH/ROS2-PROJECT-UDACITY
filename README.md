@@ -58,15 +58,23 @@ Open a new terminal, then <br/>
 `cd ~/dev_ws`   <br/>
 `source /opt/ros/galactic/setup.bash`
 `. install/setup.bash ` <br/>
+##### to compute multiplication of two numbers we give as input.
  `ros2 run udacity_final_project userver`
+##### to compute multiplication of three numbers we give as input.
+ `ros2 run udacity_final_project numserver`
 #### To run the client node
 Open a new terminal, then <br/>
 `cd ~/dev_ws`   <br/>
 `source /opt/ros/galactic/setup.bash` <br/>
 `. install/setup.bash ` <br/>
+##### to compute multiplication of two numbers we give as input.
  `ros2 run udacity_final_project uclient X Y` <br/>
  In here, the X and Y represent any number that you wish to multiply. <br/>
  eg `ros2 run udacity_final_project uclient 5 6` <br/>
+ ##### to compute multiplication of three numbers we give as input.
+ `ros2 run udacity_final_project uclient X Y Z` <br/>
+ In here, the X and Y represent any number that you wish to multiply. <br/>
+ eg `ros2 run udacity_final_project uclient 5 6 9` <br/>
  
  ![Example of execution](https://github.com/SHIVOH/ROS2-PROJECT-UDACITY/blob/main/ROS%20Message.png)
 
