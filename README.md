@@ -25,6 +25,47 @@ In here, i have implemented the main concepts of the ROS 2 in C++, such as ROS 2
 6. Build the packages 
     `colcon build`
 7. Source the overlay by ` . install/setup.bash `
+
+## ROS File structure
+```
+dev_ws
+│   
+│      
+│
+└───src
+│   │   
+│   │   
+│   │
+│   └───udacity_final_project
+│       │   CMakeLists.txt
+│       │   include
+│       │   package.xml
+│       │   README.md
+│       │   src
+│       │     └─── multiply_three_ints_client.cpp
+│       │          multiply_three_ints_server.cpp
+│       │          multiply_two_ints_client.cpp
+│       │          multiply_two_ints_server.cpp
+│       │          num_publisher_member_function.cpp
+│       │          num_subscriber_member_function.cpp
+│       │          publisher_member_function.cpp
+│       │          subscriber_member_function.cpp
+│       │ 
+│       action_tutorials_cpp
+│       action_tutorials_interfaces
+│       ros_tutorials
+│       tutorial_interfaces
+│        ...
+│   
+└───build
+│    
+───install
+│  
+└───log  
+```
+
+
+
 ## Running the ROS 2 nodes
 
 ### Publisher and Subscriber nodes for ROS 2 message transfer
