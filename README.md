@@ -34,7 +34,7 @@ Publisher node will publish a message to the ROS topic named "topic".  <br/>
 
 To run the Publisher ros node <br/>
 `cd ~/dev_ws`   <br/>
-`source /opt/ros/galactic/setup.bash`
+`source /opt/ros/galactic/setup.bash`<br/>
 `. install/setup.bash ` <br/>
 `ros2 run udacity_final_project utalker ` <br/>
 
@@ -44,7 +44,7 @@ Subscriber node will subscribe to the ROS topic named "topic" and get the messag
 To run the subscriber ros node <br/>
 Open a new terminal, then <br/>
 `cd ~/dev_ws`   <br/>
-`source /opt/ros/galactic/setup.bash`
+`source /opt/ros/galactic/setup.bash`<br/>
 `. install/setup.bash ` <br/>
 `ros2 run udacity_final_project ulistener ` <br/>
 
@@ -56,7 +56,7 @@ Services are another method of data transmission in the ROS 2. In here, the clie
 #### To run the server node 
 Open a new terminal, then <br/>
 `cd ~/dev_ws`   <br/>
-`source /opt/ros/galactic/setup.bash`
+`source /opt/ros/galactic/setup.bash` <br/>
 `. install/setup.bash ` <br/>
 ##### to compute multiplication of two numbers we give as input.
  `ros2 run udacity_final_project userver`
