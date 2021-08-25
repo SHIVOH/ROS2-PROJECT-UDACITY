@@ -48,7 +48,7 @@ Open a new terminal, then <br/>
 `. install/setup.bash ` <br/>
 `ros2 run udacity_final_project ulistener ` <br/>
 
-![Example of execution](https://octodex.github.com/images/yaktocat.png)
+![Example of execution](ROS Message.png)
 
 
 ### Server and clients nodes for a ROS 2 service
