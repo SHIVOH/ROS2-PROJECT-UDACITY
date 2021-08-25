@@ -19,9 +19,10 @@ In here, i have implemented the main concepts of the ROS such as ROS publishers,
    ROS action server and client package  - 
 5. Reach the root of your workspace
     `cd dev_ws`
-7. Build the packages 
+6. Build the packages 
     `colcon build`
-7. Run the nodes
+7. Source the overlay by ` . install/setup.bash `
+8. Run the nodes
 ### Publisher node
 
 ### Subscriber node
