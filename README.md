@@ -13,7 +13,8 @@ In here, i have implemented the main concepts of the ROS such as ROS publishers,
    `mkdir -p ~/dev_ws/src`
    `cd ~/dev_ws/src`
 4. clone my packages 
-   ` git clone https://github.com/ros/ros_tutorials.git -b galactic-devel`
+   publishers,subscribers, server, and client package -  ` git clone https://github.com/SHIVOH/ROS2-PROJECT-UDACITY.git`
+   ROS action server and client package  - 
 5. Reach the root of your workspace
     `cd dev_ws`
 7. build the packages 
