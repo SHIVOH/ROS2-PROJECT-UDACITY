@@ -25,8 +25,9 @@ In here, i have implemented the main concepts of the ROS such as ROS publishers,
 6. Build the packages 
     `colcon build`
 7. Source the overlay by ` . install/setup.bash `
-8. Run the nodes
+## Running the ROS nodes
 ### Publisher node
+After calling the 
 
 ### Subscriber node
 
