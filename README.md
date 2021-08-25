@@ -10,9 +10,11 @@ In here, i have implemented the main concepts of the ROS such as ROS publishers,
 1. Install ROS 2 Galactic on your system via the [official documentation](https://docs.ros.org/en/galactic/Installation.html)
 2. Source the ROS 2 environment by entering this command  `source /opt/ros/galactic/setup.bash`
 3. Create the workspace <br/>
+
    `mkdir -p ~/dev_ws/src` <br/>
    `cd ~/dev_ws/src`
 4. Clone my packages <br/>
+
    Publishers,subscribers, server, and client package -  ` git clone https://github.com/SHIVOH/ROS2-PROJECT-UDACITY.git` <br/>
    ROS action server and client package  - 
 5. Reach the root of your workspace
