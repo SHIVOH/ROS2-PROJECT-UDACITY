@@ -77,6 +77,8 @@ Open a new terminal, then <br/>
  eg `ros2 run udacity_final_project uclient 5 6 9` <br/>
  
  ![Example of execution](https://github.com/SHIVOH/ROS2-PROJECT-UDACITY/blob/main/ROS%20Message.png)
+ ![Example of execution](https://github.com/SHIVOH/ROS2-PROJECT-UDACITY/blob/main/numserv.png)
+ 
 
 ### Actions in ROS 2
 Actions are yet another method of communication in ROS 2. In here, an action client request the action server for a goal completion. The Action server 
