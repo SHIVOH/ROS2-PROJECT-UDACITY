@@ -13,7 +13,7 @@ In here, i have implemented the main concepts of the ROS such as ROS publishers,
 
    `mkdir -p ~/dev_ws/src` <br/>
    `cd ~/dev_ws/src`
-4. Clone my packages <br/>
+4. Clone my packages in the src folder <br/>
 
    Publishers,subscribers, server, and client package -  ` git clone https://github.com/SHIVOH/ROS2-PROJECT-UDACITY.git` <br/>
    ROS action server and client package  - 
