@@ -26,7 +26,7 @@ In here, i have implemented the main concepts of the ROS 2 in C++, such as ROS 2
     `colcon build`
 7. Source the overlay by ` . install/setup.bash `
 
-## ROS File structure
+## ROS 2 File structure
 ```
 dev_ws
 │   
