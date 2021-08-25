@@ -156,3 +156,14 @@ Set the goal_msg.order to the required number of fibonacci terms required.
 
 
 [Reference](https://docs.ros.org/en/galactic/Tutorials.html)
+
+##### For the grading of the project
+| Criteria     | Meets Specifications |
+| :---        |    :----:   |
+| A README with instructions is included with the project     | Completed      | 
+| The README indicates which project is chosen.   | Completed       | 
+| The README includes information about each rubric point addressed.   | Completed       | 
+| The submission must compile and run.   | Text        | 
+| The project demonstrates an understanding of C++ functions and control structures.   | Yes. eg: multiply_two_ints_server.cpp  [6 to 13]     | 
+| Paragraph   | Text        | 
+| Paragraph   | Text        | 
