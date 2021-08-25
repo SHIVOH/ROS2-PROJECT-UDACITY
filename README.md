@@ -165,5 +165,8 @@ Set the goal_msg.order to the required number of fibonacci terms required.
 | The README includes information about each rubric point addressed.   | Completed       | 
 | The submission must compile and run.   | Text        | 
 | The project demonstrates an understanding of C++ functions and control structures.   | Yes. eg: multiply_two_ints_server.cpp  [6 to 13]     | 
-| Paragraph   | Text        | 
-| Paragraph   | Text        | 
+| The project accepts user input and processes the input.   | yes, eg: ros2 run udacity_final_project uclient 5 6  (takes input 5 and 6)      | 
+| Classes use appropriate access specifiers for class members.   | yes, eg: num_publisher_member_function.cpp ,line 11 and 20       | 
+| Classes follow an appropriate inheritance hierarchy.   | Yes, eg: dev_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp,  line 15      | 
+| The project uses smart pointers instead of raw pointers.   | yes, eg: dev_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp line 35 (shared_ptr)    | 
+| The project uses multithreading.  | Yes, dev_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp line 57-58      | 
