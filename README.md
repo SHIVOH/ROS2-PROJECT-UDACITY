@@ -92,7 +92,7 @@ Open a new terminal, then <br/>
 `ros2 run action_tutorials_cpp fibonacci_action_server` <br/>
 
 
-#### To run the client node
+#### To run the Action client node
 Open a new terminal, then <br/>
 `cd ~/dev_ws`   <br/>
 `source /opt/ros/galactic/setup.bash` <br/>
@@ -104,7 +104,12 @@ Open a new terminal, then <br/>
 
 
 
-In this specific example, you are creating an action in which the client sends the goal to the server to print out the specific number of fibonacci numbers as the output.Each calculation is send as a feedback to the client too.
+In this specific example, you are creating an action in which the client sends the goal to the server to print out the specific [here it is 15] number of fibonacci numbers as the output.Each calculation is send as a feedback to the client too.
+
+To change the number, go to the folder `dev_ws/src/action_tutorials_cpp/src` <br/>
+then, edit the 47th line of the `fibonacci_action_client.cpp` file <br/>
+ `goal_msg.order = 15;`<br/>
+Set the goal_msg.order to the required number of fibonacci terms required.
 
 ![Example of execution](https://github.com/SHIVOH/ROS2-PROJECT-UDACITY/blob/main/fibonacci.png)
 
