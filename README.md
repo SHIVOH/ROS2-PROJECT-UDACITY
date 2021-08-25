@@ -48,7 +48,6 @@ Open a new terminal, then <br/>
 `. install/setup.bash ` <br/>
 `ros2 run udacity_final_project ulistener ` <br/>
 
-![Example of execution](https://github.com/SHIVOH/ROS2-PROJECT-UDACITY/blob/main/ROS%20Message.png)
 
 
 ### Server and clients nodes for a ROS 2 service
@@ -68,6 +67,8 @@ Open a new terminal, then <br/>
  `ros2 run udacity_final_project uclient X Y` <br/>
  In here, the X and Y represent any number that you wish to multiply. <br/>
  eg `ros2 run udacity_final_project uclient 43 89` <br/>
+ 
+ ![Example of execution](https://github.com/SHIVOH/ROS2-PROJECT-UDACITY/blob/main/ROS%20Message.png)
 
 ### Actions in ROS 2
 Actions are yet another method of communication in ROS 2. In here, an action client request the action server for a goal completion. The Action server 
