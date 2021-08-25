@@ -25,9 +25,9 @@ In here, i have implemented the main concepts of the ROS such as ROS publishers,
 6. Build the packages 
     `colcon build`
 7. Source the overlay by ` . install/setup.bash `
-## Running the ROS nodes
+## Running the ROS 2 nodes
 
-### Publisher and Subscriber nodes for ROS message transfer
+### Publisher and Subscriber nodes for ROS 2 message transfer
 Publisher node publishes the ROS messages to the ROS topic and then the Subscriber node collects the ROS messages from that topic.
 #### Publisher node
 Publisher node will publish a message to the ROS topic named "topic".  <br/>
@@ -48,7 +48,7 @@ Open a new terminal, then <br/>
 `. install/setup.bash ` <br/>
 `ros2 run udacity_final_project ulistener ` <br/>
 
-### Server and clients nodes for a ROS service
+### Server and clients nodes for a ROS 2 service
 Services are another method of data transmission in the ROS 2. In here, the client node request a service to the server client and the server process the request and sent the data to the client node.
 
 #### To run the server node 
