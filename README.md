@@ -17,9 +17,9 @@ In here, i have implemented the main concepts of the ROS such as ROS publishers,
 
    Publishers,subscribers, server, and client package -  ` git clone https://github.com/SHIVOH/ROS2-PROJECT-UDACITY.git` <br/>
    ROS action server and client package  -                                                 <br/>
-   dependency packages - git clone https://github.com/SHIVOH/tutorial_interfaces.git       <br/>
-                       - git clone https://github.com/ros/ros_tutorials.git -b galactic-devel  <br/>
-                       - git clone https://github.com/SHIVOH/action_tutorials_interfaces.git   <br/>
+   dependency packages - `git clone https://github.com/SHIVOH/tutorial_interfaces.git`      <br/>
+                       - `git clone https://github.com/ros/ros_tutorials.git -b galactic-devel`  <br/>
+                       - `git clone https://github.com/SHIVOH/action_tutorials_interfaces.git`   <br/>
 5. Reach the root of your workspace
     `cd dev_ws`
 6. Build the packages 
